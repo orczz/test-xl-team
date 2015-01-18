@@ -1,0 +1,51 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <div id="container">
+            <div id="grafic"></div>
+        </div>
+        <script src="script.js"></script>
+        <style>
+            html, body {
+                margin: 0;
+                border: 0;
+                padding: 0;
+            }
+            #container {
+                position: relative;
+                margin-top: 40px;
+            }
+            #grafic {
+                border: 1px solid #000;
+                height: 40px;
+            }
+            .tile {
+                border-left: 1px solid #FFF;
+                border-right: 1px solid #FFF;
+                height: 100%;
+                display: inline-block;
+                box-sizing: border-box;
+            }
+            .interval {
+                background-color: #ececec;
+                border-color: #ececec;
+            }
+            .month-delimiter {
+                /*border-right: 1px solid #F00;*/
+            }
+            .current-date {
+                background-color: #023290;
+            }
+            .separator {
+                position: absolute;
+                height: 120px;
+                width: 1px;
+                background-color: #FF0000;
+            }
+            .absolute-div {
+                position: absolute;
+            }
+        </style>
+    </body>
+</html>
